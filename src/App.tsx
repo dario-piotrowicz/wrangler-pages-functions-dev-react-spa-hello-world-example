@@ -26,7 +26,8 @@ function App() {
           {text}
         </p>
         <p>
-          Edit <code>functions/api/hello.ts</code> and save to test the Pages Functions reload
+          Edit <code>functions/api/hello.ts</code> or <code>wrangler.toml</code>
+          <br />and save to test the Pages Functions reload
         </p>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
