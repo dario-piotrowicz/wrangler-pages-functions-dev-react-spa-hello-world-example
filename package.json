@@ -22,7 +22,11 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
+    "i": "^0.3.7",
+    "npm": "^10.8.0",
     "typescript": "^5.2.2",
-    "vite": "^5.2.0"
+    "vite": "^5.2.0",
+    "wrangler-pages-functions-dev": "^0.0.3",
+    "wrangler": "^3.57.1"
   }
 }

@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.pages-functions-hello {
+  border: 2px solid currentColor;
+  color: rgb(177, 177, 177);
+  background-color: #2e2e2e;
+  border-radius: 5px;
+  margin-block: 2rem 5rem;
+  padding: 1rem 2rem;
+}
