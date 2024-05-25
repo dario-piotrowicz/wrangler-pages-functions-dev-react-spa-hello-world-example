@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# `wrangler-pages-functions-dev` React SPA hello-world example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a very minimal example/template built via `npm create vite` using the [Vite React TS starting template](https://github.com/vitejs/vite/tree/e7d38ab1c45b9d17f182f89d0c129932e2f994eb/packages/create-vite/template-react-ts) (with very minimal tweaks) which allows the application to work with Cloudflare Pages Functions during local development by using the [`wrangler-pages-functions-dev`](https://www.npmjs.com/package/wrangler-pages-functions-dev) Vite Plugin.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+To try this example install its dependencies:
+```sh
+$ npm i
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+and simply run:
+```sh
+$ npm run dev
+```
